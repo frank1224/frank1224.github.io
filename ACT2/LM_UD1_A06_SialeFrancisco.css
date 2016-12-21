@@ -1,0 +1,216 @@
+
+
+body{
+background-image: url(img/final-fantasy-wallpaper-229771.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: auto;    
+
+    
+
+}
+
+#capa3{
+    
+    cursor: url("http://vignette1.wikia.nocookie.net/finalfantasy/images/3/35/BusterSword-ffvii-cloud.png/revision/latest?cb=20120402225220"), auto;
+  
+}
+
+
+#espacio{
+
+    opacity: 0.9;
+    
+    padding: 20px;
+    width: 100px;
+    height: 70px;
+    margin: auto;
+    display: block;
+
+
+}
+
+#capa1{
+   background-color: azure;
+    opacity: 0.9;
+    color: azure;
+    padding: 20px;
+    width: 1400px;
+    height: 250px;
+    margin: auto;
+    display: block;
+   
+}
+
+p{
+text-align: left;
+
+}
+
+ul{
+list-style-type: none;
+}
+
+
+
+
+#capa2{
+   background-color: dimgray;
+    opacity: 0.9;
+    color: azure;
+    padding: 25px;
+    width: 1400px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    border-width: 5px 15px 5px 15px;
+    border-color: azure;
+    border border-style:dashed; 
+}
+
+
+#capa2 ol{
+   list-style-type: none;
+   text-align: center;
+}
+
+#capa2 ul{
+   display: inline-flex;
+   text-align: center;
+   margin:  15px 0 0;
+}
+
+
+#capa2 ul a {
+   padding: 2px 7px 2px 7px;
+   color: #666;
+   background-color: #eeeeee;
+   border: 1px solid #ccc;
+   text-decoration: none;
+}
+
+
+#capa2 ul a {
+   padding: 2px 7px 2px 7px;
+   color: #666;
+   background-color: black;
+   border: 1px solid white;
+   text-decoration: none;
+}
+
+#capa2 ul a:hover{
+  
+    background-color: white;
+    color: grey;
+}
+
+
+
+#capa3{
+    background-color: black;
+    opacity: 0.9;
+    color: azure;
+    padding: 20px;
+    width: 1400px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    border-width: 5px 15px 5px 15px;
+    border border-style:dashed; 
+      
+
+}
+
+/*LEER MAS*/
+
+.estado-leermas{
+display: none;
+}
+
+.leerArticulo {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.estado-leermas:checked ~ .leerMas .leerArticulo {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.estado-leermas ~ .lanzar-leermas:before {
+  content: "Leer mas...";
+}
+
+.estado-leermas:checked ~ .lanzar-leermas:before {
+  content: "Ocultar Texto";
+}
+.lanzar-leermas {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+
+
+
+/*CLASE SOCIAL*/
+
+.social{
+margin: 0;
+padding: 0;
+-webkit-box-sizing:border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;    
+
+
+}
+
+
+
+.social{
+position: fixed;
+left: 0px;
+top: 200px;
+z-index: 2000;    
+
+}
+
+.social ul {
+
+list-style: none;
+margin-left:-70%;    
+}
+
+.social ul li a{
+
+display: inline-block;
+color: #fff;
+background: #000;
+padding: 10px 20px;
+text-decoration: none;
+-webkit-transition:all 500ms ease;
+-o-transition:all 500ms ease;
+transition: all 500ms ease;    
+}
+
+
+
+.social ul li .icon-facebook{background: #3b5998;}
+.social ul li .icon-twitter{background: #00abf0;}
+.social ul li .icon-google-plus{background: #d95232;}
+.social ul li .icon-youtube2{background: #ff0000;}
+
+.social ul li a:hover{
+padding:10px 30px;    
+background: #b3b3b3;
+
+}
+
+
