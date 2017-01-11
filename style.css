@@ -1,4 +1,20 @@
 body{
-background-image: url();
+background-image: url(img/toronto_skyscrapers_black_and_white_2-wallpaper-2048x1152.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: auto;  
+}
 
+
+ul {
+list-style-type: none;
+background:  #3399ff;        
+padding: 20px;      
+}
+
+ul li{    
+background:#cce5ff;
+margin-left: 35px;
+padding: 5px;    
+text-align: center
 }
