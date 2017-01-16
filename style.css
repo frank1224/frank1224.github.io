@@ -9,11 +9,18 @@ background-size: auto;
 ul {
 list-style-type: none;
 background:  #3399ff;        
-padding: 20px;      
+padding: 20px; 
+width: -30%;    
 }
 
 ul li{    
 background:#cce5ff;
 padding: 15px;    
 text-align: center
+}
+
+.Glosario {
+  
+
+
 }
